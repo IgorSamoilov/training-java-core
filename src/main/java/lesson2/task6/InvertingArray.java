@@ -6,7 +6,7 @@ public class InvertingArray {
     public static void main(String[] args) {
         int m = new Random().nextInt(3) + 3;
         int n = new Random().nextInt(3) + 3;
-        int [][] firstArray = new int [m][n];
+        int[][] firstArray = new int[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 firstArray[i][j] = new Random().nextInt(2);
